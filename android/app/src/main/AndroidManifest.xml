@@ -41,4 +41,6 @@
             <data android:mimeType="text/plain"/>
         </intent>
     </queries>
+    <!-- production에서 supabase api와 통신하기 위해서는 android 권한 설정이 필요 -->
+    <uses-permission android:name="android.permission.INTERNET" />
 </manifest>
